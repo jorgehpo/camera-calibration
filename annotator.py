@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 class MatplotlibAnnotator:
     ##################
     # MatplotlibAnnotator is a tool that enables the interactive annotation of matplotlib charts
-    # Needs to run with TK backend ( %matplotlib tk )
+    # Needs to run with TK backend ( %matplotlib tk or %matplotlib notebook )
 
     def get_annotations(self):
         return self.annotations
